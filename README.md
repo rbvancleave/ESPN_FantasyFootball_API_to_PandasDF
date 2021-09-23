@@ -8,6 +8,8 @@ Tables Include:
 - seasonal transactions DataFrame
 - total points from each football stat DataFrame
 
+## Start with "Starter Notebook with Examples" Python Notebook
+
 
 How to grab League ID:
 
