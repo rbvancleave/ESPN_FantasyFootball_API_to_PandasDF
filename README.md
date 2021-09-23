@@ -8,7 +8,7 @@
 - seasonal transactions DataFrame
 - total points from each football stat DataFrame
 
-## Open "Starter Notebook with Examples" with jupyter notebook file to get started.
+### Open "Starter Notebook with Examples" with jupyter notebook file to get started.
 
 ## The Notebook will ask for the following:
 - LeagueID
