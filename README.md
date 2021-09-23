@@ -17,11 +17,11 @@
  
 ## See below how to grab these for your individual league...
 
-##How to grab League ID:
+# How to grab League ID:
 
 ![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/leagueid_from_url.png?raw=true)
 
-## How to grab swid and espn_s2:
+# How to grab swid and espn_s2:
 
 ![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/swid%20and%20espn_s2.jpg?raw=true)
 
