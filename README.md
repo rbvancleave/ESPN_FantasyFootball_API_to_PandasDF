@@ -34,3 +34,18 @@ How to grab swid and espn_s2:
 [requests](https://github.com/psf/requests) - Requests is a simple, yet elegant, HTTP library.
 
 [seaborn](https://github.com/seaborn/seaborn) - Seaborn is a Python visualization library based on matplotlib.
+
+| Script           | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| ESPN_FFL_API.py            | Runs request to ESPN API and builds DataFrame's.                                           |
+| build:docs       | Builds the docs.                                             |
+| clean            | Runs all clean scripts.                                      |
+| clean:dist       | Removes the dist folder.                                     |
+| clean:docs       | Removes the docs folder.                                     |
+| ci               | Runs continuous integration tasks. Currently runs lint, unit and integration tests, and build. |
+| lint             | Ensures code style is correct.                               |
+| serve:docs       | Builds and serves docs. Defaults to port 8080.               |
+| test             | Starts a jest test runner with access to all tests. Pass `--watch` to keep jest alive and watching for changes. Pass a string as a file inclusion pattern. |
+| test:all         | Runs the unit tests then the integration tests.              |
+| test:integration | Runs the integration tests.                                  |
+| test:unit        | Runs the unit tests.                                         |
