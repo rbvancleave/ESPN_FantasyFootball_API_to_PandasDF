@@ -11,11 +11,11 @@ Tables Include:
 Open "Starter Notebook with Examples" with jupyter notebook file to get started.
 
 The Notebook will ask for the following:
-  LeagueID
-  swid
-  espn_2
+- LeagueID
+- swid
+- espn_2
  
- See below how to grab these for your individual league...
+See below how to grab these for your individual league...
 
 How to grab League ID:
 
