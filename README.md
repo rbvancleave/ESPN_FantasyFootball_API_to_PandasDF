@@ -38,7 +38,7 @@ How to grab swid and espn_s2:
 | Script           | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
 | ESPN_FFL_API.py            | Runs request to ESPN API and builds DataFrame's.                                           |
-| build:docs       | Builds the docs.                                             |
+| Starter Notebook with Examples.ipynb       | Asks for LeagueID, SWID, and espn_s2. Enter specific league year or all years. 4 DataFrames are saved as well as original repsponse_json                                              |
 | clean            | Runs all clean scripts.                                      |
 | clean:dist       | Removes the dist folder.                                     |
 | clean:docs       | Removes the docs folder.                                     |
