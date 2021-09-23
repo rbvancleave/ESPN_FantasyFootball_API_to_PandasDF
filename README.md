@@ -9,7 +9,7 @@ Tables Include:
 - total points from each football stat DataFrame
 
 ## Start with "Starter Notebook with Examples" Python Notebook
-![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/Starter_notebook.png?raw=true)
+![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/Starter_notebook.PNG?raw=true)
 
 How to grab League ID:
 
