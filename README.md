@@ -22,3 +22,15 @@ How to grab swid and espn_s2:
 ![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/swid%2Bespn_s2_2.png?raw=true)
 ### 3:
 ![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/swid%2Bespn_s2_3.png?raw=true)
+
+## Built With
+
+[matplotlib](https://github.com/matplotlib/matplotlib) - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+[numpy](https://github.com/numpy/numpy) - NumPy is the fundamental package needed for scientific computing with Python.
+
+[pandas](https://github.com/pandas-dev/pandas) - Powerful Python data analysis toolkit.
+
+[requests](https://github.com/psf/requests) - Requests is a simple, yet elegant, HTTP library.
+
+[seaborn](https://github.com/seaborn/seaborn) - Seaborn is a Python visualization library based on matplotlib.
