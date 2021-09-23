@@ -20,6 +20,8 @@
 
 ### How to grab League ID:
 
+Go to your fantasy league page and copy the LeagueID from the URL
+
 ![Find League ID](https://github.com/rbvancleave/ESPN_FantasyFootball_API_to_PandasDF/blob/master/images/leagueid_from_url.png?raw=true)
 
 ### How to grab swid and espn_s2:
