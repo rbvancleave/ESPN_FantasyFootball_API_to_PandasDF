@@ -165,6 +165,7 @@ if all_data == 'n':
         print('Done!')
         print('-----------------------')
         print('Dataframes include: scoreboard_df, teams_df, transactions_df, points_by_stats_df')
+        print("You will need to manually import points_by_stats DataFrame by running: 'from ESPN_FFL_API import points_by_stats_df'")
     else:
         print('Done!')
         print('-----------------------')
