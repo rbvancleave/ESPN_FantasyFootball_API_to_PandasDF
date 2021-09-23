@@ -38,14 +38,6 @@ How to grab swid and espn_s2:
 | Script           | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
 | ESPN_FFL_API.py            | Runs request to ESPN API and builds DataFrame's.                                           |
-| Starter Notebook with Examples.ipynb       | Asks for LeagueID, SWID, and espn_s2. Enter specific league year or all years. 4 DataFrames are saved as well as original repsponse_json                                              |
-| clean            | Runs all clean scripts.                                      |
-| clean:dist       | Removes the dist folder.                                     |
-| clean:docs       | Removes the docs folder.                                     |
-| ci               | Runs continuous integration tasks. Currently runs lint, unit and integration tests, and build. |
-| lint             | Ensures code style is correct.                               |
-| serve:docs       | Builds and serves docs. Defaults to port 8080.               |
-| test             | Starts a jest test runner with access to all tests. Pass `--watch` to keep jest alive and watching for changes. Pass a string as a file inclusion pattern. |
-| test:all         | Runs the unit tests then the integration tests.              |
-| test:integration | Runs the integration tests.                                  |
-| test:unit        | Runs the unit tests.                                         |
+| Starter Notebook with Examples.ipynb       |  4 DataFrames are saved as well as original response_json.                                              |
+| config.py            | Asks for LeagueID, SWID, and espn_s2. Can be uncomented to hardcode variables                                    |
+
