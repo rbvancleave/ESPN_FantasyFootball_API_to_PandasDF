@@ -153,14 +153,16 @@ def Build_points_by_stats(response_json):
                        '35':'Rushing-40+yardTD','38':'Rushing-200+ Yds','57':'Receiving-200+Yds','42':'Receiving-Yds',
                        '43':'Receiving-TD', '44':'Receiving-2pt conversion','46':'Receiving-50+yard TD', 
                        '53':'Receiving-REC',
-                      '56':'Receiving-100_190 Yds','80':'K-FG 0_39 Yds','86':'K-PAT','95':'DF/ST-INT','88':'K-PAT Missed',
+                      '56':'Receiving-100_190 Yds','77':'K-FG 40_49 Yds',
+                       '80':'K-FG 0_39 Yds','86':'K-PAT','95':'DF/ST-INT','88':'K-PAT Missed',
                        '89':'D/ST-0 Pts Allowed','90':'D/ST-1_6 Pts Allowed','91':'D/ST-7_13 Pts Allowed',
                        '92':'D/ST-14_17 Pts Allowed','93':'D/ST-Blocked Punt,PAT,FG Return for TD',
                        '96':'D/ST-Fumble Recovery','97':'D/ST-Blocked Punt,PAT,FG','99':'DF/ST-Sack',
-                       '103':'D/ST-INT Return TD','106':'D/ST-Fumble Forced',
+                       '103':'D/ST-INT Return TD','106':'D/ST-Fumble Forced','123':'D/ST-28_34 Pts Allowed',
+                       '124':'D/ST-35_45 Pts Allowed','128':'D/ST-Less Than 100 Yds Allowed',
                       '129':'D/ST-100_199 Yds Allowed','130':'D/ST-200_299 Yds Allowed','132':'D/ST-350_399 Yds Allowed',
                       '133':'D/ST-400_449 Yds Allowed','134':'D/ST-450_499 Yds Allowed','135':'D/ST-500_549 Yds Allowed',
-                      '18':'Passing-400+ Yds','201':'K-FG 60+ yds'},inplace=True)
+                      '18':'Passing-400+ Yds','198':'K-FG 50+ yds','201':'K-FG 60+ yds'},inplace=True)
 
     for col in df.columns.values[2:]:
         df[col] = df[col].apply(lambda x: int(x))
