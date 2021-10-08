@@ -24,7 +24,7 @@ def Get_ESPN_data(year=2021,leagueID=leagueID,swid=swid,espn_s2=espn_s2):
     return r.json()
 
 def Get_OwnerID(num):
-    return response_json['teams'][num-1]['owners'][0]
+    return owner_id_dict[num]
 
 def Get_OwnerName(num):
     owner_id = Get_OwnerID(num)
@@ -33,7 +33,7 @@ def Get_OwnerName(num):
             return member['firstName']+" "+member['lastName']
 
 def Get_TeamName(num):
-    return response_json['teams'][num-1]['location'] + " " + response_json['teams'][num-1]['nickname']
+    return owner_name_dict[num]
         
 
 def Build_scoreboard(response_json):
@@ -174,6 +174,12 @@ if all_data == 'n':
     year = int(input('What year would you like? :'))
     response_json = Get_ESPN_data(year=year)
 
+    owner_id_dict = {}
+    owner_name_dict = {}
+    for n in response_json['teams']:
+        owner_id_dict[n['id']] =  n['owners'][0]
+        owner_name_dict[n['id']] = n['location'] + " " + n['nickname']
+
     scoreboard_df = Build_scoreboard(response_json)
     teams_df = Build_teams_table(response_json)
     transactions_df = Build_transactions_table(response_json)
@@ -194,6 +200,11 @@ else:
     print('-----------------------')
     print('Dataframes include: scoreboard_df, teams_df, transactions_df')
     response_json = Get_ESPN_data(2018)
+    owner_id_dict = {}
+    owner_name_dict = {}
+    for n in response_json['teams']:
+        owner_id_dict[n['id']] =  n['owners'][0]
+        owner_name_dict[n['id']] = n['location'] + " " + n['nickname']
 
     scoreboard_df = Build_scoreboard(response_json)
     scoreboard_df['Year'] = 2018
@@ -207,6 +218,11 @@ else:
 
     for year in range(2019,2022):
         response_json = Get_ESPN_data(year)
+        owner_id_dict = {}
+        owner_name_dict = {}
+        for n in response_json['teams']:
+            owner_id_dict[n['id']] =  n['owners'][0]
+            owner_name_dict[n['id']] = n['location'] + " " + n['nickname']
 
         temp_df = Build_scoreboard(response_json)
         temp_df['Year'] = year
